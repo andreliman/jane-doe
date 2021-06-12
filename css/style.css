@@ -50,6 +50,60 @@ iframe {
   width: 640px;
 }
 
+#about {
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  width: 100%;
+  text-align: center;
+}
+
+#about h2 {
+  margin-top: 90px;
+  font-size: 3rem;
+}
+
+#about h3 {
+  font-size: 1.5rem;
+}
+
+section#banner2 {
+  background-image: url("../img/jane2.jpg");
+  margin: 0 auto;
+  margin-bottom: 70px;
+  max-width: 520px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 56vh;
+}
+
+#contact {
+  max-width: 1200px;
+  margin: 60px auto;
+  width: 100%;
+}
+
+#linha-horizontal{
+  /* width: 300px; */
+  border: 1px solid #ccc;
+}
+
+#contact h2 {
+  font-size: 3rem;
+}
+
+#contact h3 {
+  font-size: 1.5rem;
+}
+
+#contact h3 span{
+  text-transform: uppercase;
+}
+
+#contact section p a {
+  color: rgba(80, 80, 235, 0.808);
+}
+
 footer {
   background-color: #f2f2f2;
   text-align: center;
@@ -66,6 +120,14 @@ footer p {
   }
 
   #music {
+    padding: 0 20px;
+  }
+
+  #about {
+    padding: 0 20px;
+  }
+
+  #contact {
     padding: 0 20px;
   }
 }
